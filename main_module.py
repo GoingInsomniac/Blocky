@@ -3,7 +3,7 @@ import os
 window = Tk() 
 #use cmdlet to clear up dns cache
 os.popen('ipconfig/flushdns')
-#Retrieve Func #Also add function to flushdns
+#Retrieve Func 
 def save(): 
     web_txt = web_link.get() 
     linko = '127.0.0.1       ' + web_txt + '\n'
