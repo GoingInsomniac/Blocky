@@ -7,7 +7,7 @@ os.popen('ipconfig/flushdns')
 def save(): 
     web_txt = web_link.get() 
     linko = '127.0.0.1       ' + web_txt + '\n'
-    with open('hfile', 'a+') as file:
+    with open(r'C:\Windows\System32\drivers\etc\host', 'a+') as file:
         file.write(linko)
 #Windows title bar 
 window.title('Blocky')
